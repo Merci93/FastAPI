@@ -63,3 +63,6 @@ pip install -r test/test_requirements.txt
 
 pytest
 ```
+
+# Fast API Enpoint UI
+![](images/api_enpoint.png)
