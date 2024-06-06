@@ -46,12 +46,12 @@ app.add_middleware(
 )
 
 
-@app.get("/root")
+@app.get("/v1/root")
 def get_root() -> dict[str, str]:
     return {"message": "Hi! root api up and running."}
 
 
-@app.get("/test_user/1")
+@app.get("/v1/get_user")
 def get_username(query: str) -> dict[str, str]:
     return {"message": f"Hello {query}!!! Welcome to my API endpoint."}
 
