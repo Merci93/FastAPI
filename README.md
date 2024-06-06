@@ -65,4 +65,4 @@ pytest
 ```
 
 # Fast API Enpoint UI
-![](images/api_enpoint.png)
+![](image/api_enpoint.png)
